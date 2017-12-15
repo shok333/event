@@ -1,4 +1,4 @@
-const domain = 'http://server.localhost/web/';
+// const domain = 'http://server.localhost/web/';
 
 export function ajaxRequest(path, method, data) {
 
@@ -30,7 +30,6 @@ export function ajaxRequest(path, method, data) {
     }
 
     if(method === 'GET' && path.indexOf('event') === 0){
-        let previous = 0;
         let next = 1
         let split = path.split('?');
         if(split.length>1){

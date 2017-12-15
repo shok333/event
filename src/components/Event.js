@@ -1,6 +1,5 @@
 import React from 'react';
 import Styled from 'styled-components';
-import Review from './Review';
 import ReviewContainer from "../containers/ReviewContainer";
 
 const Image = Styled.span`

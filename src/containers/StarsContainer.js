@@ -8,7 +8,6 @@ import Stars from '../components/Stars';
 class StarsContainer extends React.Component{
     constructor(props){
         super(props);
-        const { rating } = this.props;
         this.ratingSelected = this.ratingSelected.bind(this);
     }
     ratingSelected(event){

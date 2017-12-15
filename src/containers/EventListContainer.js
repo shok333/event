@@ -35,7 +35,7 @@ function mapDispatchToProps(dispatch) {
         getEventList: bindActionCreators(getEventListAction, dispatch),
         scroll: function () {
             if(this.props.requestAllow){
-                if((this.eventListObject.offsetHeight+this.eventListObject.offsetTop)-window.pageYOffset<980){
+                if((this.eventListObject.offsetHeight+this.eventListObject.offsetTop)-window.pageYOffset<990){
                     const { next, previous } = this.props;
                     bindActionCreators(getEventListAction, dispatch)({
                         next: next,
